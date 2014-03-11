@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5567C04018CEF37800119190 /* SSStickiesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5567C03E18CEF37800119190 /* SSStickiesVC.m */; };
+		5567C04118CEF37800119190 /* SSStickiesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5567C03F18CEF37800119190 /* SSStickiesVC.xib */; };
+		5567C04818CEF4BD00119190 /* SSStickiesContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5567C04618CEF4BD00119190 /* SSStickiesContainerVC.m */; };
+		5567C04918CEF4BD00119190 /* SSStickiesContainerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5567C04718CEF4BD00119190 /* SSStickiesContainerVC.xib */; };
+		5579C02F18CDB15700703ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5579C02E18CDB15700703ECA /* Foundation.framework */; };
+		5579C03118CDB15700703ECA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5579C03018CDB15700703ECA /* CoreGraphics.framework */; };
+		5579C03318CDB15700703ECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5579C03218CDB15700703ECA /* UIKit.framework */; };
+		5579C03918CDB15700703ECA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5579C03718CDB15700703ECA /* InfoPlist.strings */; };
+		5579C03B18CDB15800703ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5579C03A18CDB15800703ECA /* main.m */; };
+		5579C03F18CDB15800703ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5579C03E18CDB15800703ECA /* AppDelegate.m */; };
+		5579C04818CDB15800703ECA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5579C04718CDB15800703ECA /* XCTest.framework */; };
+		5579C04918CDB15800703ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5579C02E18CDB15700703ECA /* Foundation.framework */; };
+		5579C04A18CDB15800703ECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5579C03218CDB15700703ECA /* UIKit.framework */; };
+		5579C05218CDB15900703ECA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5579C05018CDB15900703ECA /* InfoPlist.strings */; };
+		5579C05418CDB15A00703ECA /* SSStickiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5579C05318CDB15A00703ECA /* SSStickiesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5579C04B18CDB15800703ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5579C02318CDB15600703ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5579C02A18CDB15700703ECA;
+			remoteInfo = SSStickies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5567C03D18CEF37800119190 /* SSStickiesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSStickiesVC.h; sourceTree = "<group>"; };
+		5567C03E18CEF37800119190 /* SSStickiesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSStickiesVC.m; sourceTree = "<group>"; };
+		5567C03F18CEF37800119190 /* SSStickiesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSStickiesVC.xib; sourceTree = "<group>"; };
+		5567C04518CEF4BD00119190 /* SSStickiesContainerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSStickiesContainerVC.h; sourceTree = "<group>"; };
+		5567C04618CEF4BD00119190 /* SSStickiesContainerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSStickiesContainerVC.m; sourceTree = "<group>"; };
+		5567C04718CEF4BD00119190 /* SSStickiesContainerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSStickiesContainerVC.xib; sourceTree = "<group>"; };
+		5579C02B18CDB15700703ECA /* SSStickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSStickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5579C02E18CDB15700703ECA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5579C03018CDB15700703ECA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5579C03218CDB15700703ECA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5579C03618CDB15700703ECA /* SSStickies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSStickies-Info.plist"; sourceTree = "<group>"; };
+		5579C03818CDB15700703ECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5579C03A18CDB15800703ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5579C03C18CDB15800703ECA /* SSStickies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSStickies-Prefix.pch"; sourceTree = "<group>"; };
+		5579C03D18CDB15800703ECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5579C03E18CDB15800703ECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5579C04618CDB15800703ECA /* SSStickiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSStickiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5579C04718CDB15800703ECA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5579C04F18CDB15900703ECA /* SSStickiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSStickiesTests-Info.plist"; sourceTree = "<group>"; };
+		5579C05118CDB15900703ECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5579C05318CDB15A00703ECA /* SSStickiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSStickiesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5579C02818CDB15700703ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5579C03118CDB15700703ECA /* CoreGraphics.framework in Frameworks */,
+				5579C03318CDB15700703ECA /* UIKit.framework in Frameworks */,
+				5579C02F18CDB15700703ECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5579C04318CDB15800703ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5579C04818CDB15800703ECA /* XCTest.framework in Frameworks */,
+				5579C04A18CDB15800703ECA /* UIKit.framework in Frameworks */,
+				5579C04918CDB15800703ECA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5579C02218CDB15600703ECA = {
+			isa = PBXGroup;
+			children = (
+				5579C03418CDB15700703ECA /* SSStickies */,
+				5579C04D18CDB15800703ECA /* SSStickiesTests */,
+				5579C02D18CDB15700703ECA /* Frameworks */,
+				5579C02C18CDB15700703ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5579C02C18CDB15700703ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5579C02B18CDB15700703ECA /* SSStickies.app */,
+				5579C04618CDB15800703ECA /* SSStickiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5579C02D18CDB15700703ECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5579C02E18CDB15700703ECA /* Foundation.framework */,
+				5579C03018CDB15700703ECA /* CoreGraphics.framework */,
+				5579C03218CDB15700703ECA /* UIKit.framework */,
+				5579C04718CDB15800703ECA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5579C03418CDB15700703ECA /* SSStickies */ = {
+			isa = PBXGroup;
+			children = (
+				5579C03D18CDB15800703ECA /* AppDelegate.h */,
+				5579C03E18CDB15800703ECA /* AppDelegate.m */,
+				5567C04518CEF4BD00119190 /* SSStickiesContainerVC.h */,
+				5567C04618CEF4BD00119190 /* SSStickiesContainerVC.m */,
+				5567C04718CEF4BD00119190 /* SSStickiesContainerVC.xib */,
+				5567C03D18CEF37800119190 /* SSStickiesVC.h */,
+				5567C03E18CEF37800119190 /* SSStickiesVC.m */,
+				5567C03F18CEF37800119190 /* SSStickiesVC.xib */,
+				5579C03518CDB15700703ECA /* Supporting Files */,
+			);
+			path = SSStickies;
+			sourceTree = "<group>";
+		};
+		5579C03518CDB15700703ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5579C03618CDB15700703ECA /* SSStickies-Info.plist */,
+				5579C03718CDB15700703ECA /* InfoPlist.strings */,
+				5579C03A18CDB15800703ECA /* main.m */,
+				5579C03C18CDB15800703ECA /* SSStickies-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5579C04D18CDB15800703ECA /* SSStickiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5579C05318CDB15A00703ECA /* SSStickiesTests.m */,
+				5579C04E18CDB15900703ECA /* Supporting Files */,
+			);
+			path = SSStickiesTests;
+			sourceTree = "<group>";
+		};
+		5579C04E18CDB15900703ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5579C04F18CDB15900703ECA /* SSStickiesTests-Info.plist */,
+				5579C05018CDB15900703ECA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5579C02A18CDB15700703ECA /* SSStickies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5579C05718CDB15A00703ECA /* Build configuration list for PBXNativeTarget "SSStickies" */;
+			buildPhases = (
+				5579C02718CDB15700703ECA /* Sources */,
+				5579C02818CDB15700703ECA /* Frameworks */,
+				5579C02918CDB15700703ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSStickies;
+			productName = SSStickies;
+			productReference = 5579C02B18CDB15700703ECA /* SSStickies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5579C04518CDB15800703ECA /* SSStickiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5579C05A18CDB15A00703ECA /* Build configuration list for PBXNativeTarget "SSStickiesTests" */;
+			buildPhases = (
+				5579C04218CDB15800703ECA /* Sources */,
+				5579C04318CDB15800703ECA /* Frameworks */,
+				5579C04418CDB15800703ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5579C04C18CDB15800703ECA /* PBXTargetDependency */,
+			);
+			name = SSStickiesTests;
+			productName = SSStickiesTests;
+			productReference = 5579C04618CDB15800703ECA /* SSStickiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5579C02318CDB15600703ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Susim;
+				TargetAttributes = {
+					5579C04518CDB15800703ECA = {
+						TestTargetID = 5579C02A18CDB15700703ECA;
+					};
+				};
+			};
+			buildConfigurationList = 5579C02618CDB15600703ECA /* Build configuration list for PBXProject "SSStickies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5579C02218CDB15600703ECA;
+			productRefGroup = 5579C02C18CDB15700703ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5579C02A18CDB15700703ECA /* SSStickies */,
+				5579C04518CDB15800703ECA /* SSStickiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5579C02918CDB15700703ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5567C04118CEF37800119190 /* SSStickiesVC.xib in Resources */,
+				5567C04918CEF4BD00119190 /* SSStickiesContainerVC.xib in Resources */,
+				5579C03918CDB15700703ECA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5579C04418CDB15800703ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5579C05218CDB15900703ECA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5579C02718CDB15700703ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5579C03F18CDB15800703ECA /* AppDelegate.m in Sources */,
+				5567C04018CEF37800119190 /* SSStickiesVC.m in Sources */,
+				5579C03B18CDB15800703ECA /* main.m in Sources */,
+				5567C04818CEF4BD00119190 /* SSStickiesContainerVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5579C04218CDB15800703ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5579C05418CDB15A00703ECA /* SSStickiesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5579C04C18CDB15800703ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5579C02A18CDB15700703ECA /* SSStickies */;
+			targetProxy = 5579C04B18CDB15800703ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5579C03718CDB15700703ECA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5579C03818CDB15700703ECA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5579C05018CDB15900703ECA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5579C05118CDB15900703ECA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5579C05518CDB15A00703ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5579C05618CDB15A00703ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5579C05818CDB15A00703ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSStickies/SSStickies-Prefix.pch";
+				INFOPLIST_FILE = "SSStickies/SSStickies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5579C05918CDB15A00703ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSStickies/SSStickies-Prefix.pch";
+				INFOPLIST_FILE = "SSStickies/SSStickies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5579C05B18CDB15A00703ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSStickies.app/SSStickies";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSStickies/SSStickies-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSStickiesTests/SSStickiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5579C05C18CDB15A00703ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SSStickies.app/SSStickies";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSStickies/SSStickies-Prefix.pch";
+				INFOPLIST_FILE = "SSStickiesTests/SSStickiesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5579C02618CDB15600703ECA /* Build configuration list for PBXProject "SSStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5579C05518CDB15A00703ECA /* Debug */,
+				5579C05618CDB15A00703ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5579C05718CDB15A00703ECA /* Build configuration list for PBXNativeTarget "SSStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5579C05818CDB15A00703ECA /* Debug */,
+				5579C05918CDB15A00703ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5579C05A18CDB15A00703ECA /* Build configuration list for PBXNativeTarget "SSStickiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5579C05B18CDB15A00703ECA /* Debug */,
+				5579C05C18CDB15A00703ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5579C02318CDB15600703ECA /* Project object */;
+}
